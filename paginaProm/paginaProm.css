@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    background: url(./img/cafe-de-acai.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; 
+    background-position: center;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-around; /*  Espaço ao redor seja a medade*/
+    align-items: center;
+    background-color: rgb(245, 209, 161);
+    height: 8vh;
+    font-size: 22px; 
+}
+
+ .navbar a{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 32px; }
+    
+
+
+a:hover{
+    opacity: 0.7;
+    color: rgb(248, 168, 122);
+}
+a {
+    color: #553110;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+main{
+     position: absolute;
+    top: 30%;  /* Alinha verticalmente o texto */
+    left: 50%; /* Alinha horizontalmente o texto */
+    transform: translate(-50%, -50%); /* Centraliza o texto perfeitamente */
+    font-size: 35px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto  caso eu queira negrito font-weight: bold; Deixa o texto em negrito */
+    color: #553110;  
+    font-style: italic;   
+}
+
+.Pp{
+    color:beige;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  color:#f9f5f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
