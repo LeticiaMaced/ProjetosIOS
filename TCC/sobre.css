@@ -1,0 +1,22 @@
+
+img{
+    width: 20rem;
+    height: auto;
+}
+
+div{
+    display: flex;
+}
+.sobrenos{
+    text-align: center;
+}
+p {
+    width: 20rem;
+    line-height: 25px;
+    margin-right: 20px;
+    text-align: justify;
+}
+div .sobrenos{
+    
+}
+
